@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="script.js" defer></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body>
+
+    <main>
+
+      <div class="dashboard">
+        <div class="profile">
+          <div class="profile__info">
+            <div>
+              <img class="profile__picture" src="images/image-jeremy.png" alt="smiling black man's picture">
+              <div>
+                <span class="profile__status">Report for</span>
+                <span class="profile__name">Jeremy Robson</span>
+              </div>
+            </div>
+          </div>
+          <div class="profile__frequency">
+            <button id="dailyBtn">Daily</button>
+            <button id="weeklyBtn">Weekly</button>
+            <button id="monthlyBtn">Monthly</button>
+          </div>
+        </div>
+
+        <div class="card work">
+          <div class="card__bg"></div>
+          <div class="card__content">
+            <div class="card__header">
+              <div class="card__title">Work</div>
+              <button id="cardOptions"></button>
+            </div>
+            <div class="card__time-tracking">
+              <span class="card__hours"></span>
+              <span class="card__last-week"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card play">
+          <div class="card__bg"></div>
+          <div class="card__content">
+            <div class="card__header">
+              <div class="card__title">Play</div>
+              <button id="cardOptions"></button>
+            </div>
+            <div class="card__time-tracking">
+              <span class="card__hours"></span>
+              <span class="card__last-week"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card study">
+          <div class="card__bg"></div>
+          <div class="card__content">
+            <div class="card__header">
+              <div class="card__title">Study</div>
+              <button id="cardOptions"></button>
+            </div>
+            <div class="card__time-tracking">
+              <span class="card__hours"></span>
+              <span class="card__last-week"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card exercise">
+          <div class="card__bg"></div>
+          <div class="card__content">
+            <div class="card__header">
+              <div class="card__title">Exercise</div>
+              <button id="cardOptions"></button>
+            </div>
+            <div class="card__time-tracking">
+              <span class="card__hours"></span>
+              <span class="card__last-week"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card social">
+          <div class="card__bg"></div>
+          <div class="card__content">
+            <div class="card__header">
+              <div class="card__title">Social</div>
+              <button id="cardOptions"></button>
+            </div>
+            <div class="card__time-tracking">
+              <span class="card__hours"></span>
+              <span class="card__last-week"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card self-care">
+          <div class="card__bg"></div>
+          <div class="card__content">
+            <div class="card__header">
+              <div class="card__title">Self Care</div>
+              <button id="cardOptions"></button>
+            </div>
+            <div class="card__time-tracking">
+              <span class="card__hours"></span>
+              <span class="card__last-week"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Tomwf</a>.
+    </div>
+  </body>
+</html>
